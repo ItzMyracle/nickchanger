@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nickchanger",
+  "version": "${version}",
+  "name": "Nick Changer",
+  "description": "Client-side fake username: changes how YOUR name is shown in the tab list, scoreboard, name tags and chat. Only you see it.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nickchanger.NickMod"]
+  },
+  "mixins": ["nickchanger.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
